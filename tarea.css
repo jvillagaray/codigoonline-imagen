@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  
+.card{
+    margin: 40px auto 0px auto;
+    height: 600px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 8px;    
+     overflow: hidden; 
+    
+}
+
+.descripcion{        
+    padding: 40px 40px;     
+    background-color: tomato;    
+    opacity: 0;   
+
+    
+}
+
+.card:hover .descripcion{
+    overflow: hidden; 
+    transform: translate(0px,-100px);    
+    opacity: 1;
+}
+
+
+  
